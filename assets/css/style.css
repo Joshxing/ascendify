@@ -53,7 +53,7 @@ h6 {
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border: 6px solid #1b2f51;
+  border: 6px solid #121725;
   border-top-color: #d2f9eb;
   border-radius: 50%;
   width: 60px;
@@ -862,12 +862,12 @@ section {
 }
 
 .features .icon-box h3 a {
-  color: #010483;
+  color: #121725;
   transition: ease-in-out 0.3s;
 }
 
 .features .icon-box h3 a:hover {
-  color: #01036f;
+  color: #1b2f51;
 }
 
 .features .icon-box:hover {
