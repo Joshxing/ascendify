@@ -9,8 +9,15 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+
+
+@font-face {
+  font-family: 'Bahnschrift';
+  src: url('/BAHNSCHRIFT.TTF') format('truetype');
+}
+
 body {
-  font-family: "Roboto Slab", sans-serif;
+  font-family: 'Bahnschrift', Arial, sans-serif;
   color: #444444;
   overflow-x: hidden;
 }
@@ -31,7 +38,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Bahnschrift', Arial, sans-serif;
 }
 
 /*--------------------------------------------------------------
@@ -183,7 +190,7 @@ h6 {
   padding: 10px 0 10px 30px;
   font-size: 15px;
   font-weight: 500;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Bahnschrift', Arial, sans-serif;
   color: rgba(255, 255, 255, 0.7);
   white-space: nowrap;
   transition: 0.3s;
@@ -430,10 +437,10 @@ h6 {
 
 #hero h1 {
   margin: 0 0 20px 0;
-  font-size: 48px;
+  font-size: 80px;
   font-weight: 700;
   line-height: 56px;
-  color: rgba(255, 255, 255, 0.8);
+  color: #fff;
 }
 
 #hero h1 span {
@@ -444,24 +451,24 @@ h6 {
 #hero h2 {
   color: #fff;
   margin-bottom: 40px;
-  font-size: 24px;
+  font-size: 30px;
 }
 
 #hero .btn-get-started {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Bahnschrift', Arial, sans-serif;
   font-weight: 500;
-  font-size: 16px;
+  font-size: 25px;
   letter-spacing: 1px;
   display: inline-block;
   padding: 10px 30px;
   border-radius: 50px;
   transition: 0.5s;
   color: black;
-  background: #fff;
+  background: #CAA94D;
 }
 
 #hero .btn-get-started:hover {
-  background: #CAA94D;
+  background: #fff;
 }
 
 #hero .animated {
@@ -1730,6 +1737,51 @@ section {
 .contact .contact-newsletter form input[type=submit]:hover {
   background: #010246;
 }
+
+
+
+
+
+
+.detai {
+  background: url("/assets/img/Q.jpg") no-repeat;
+  background-position: center center;
+  background-size: cover;
+  position: relative;
+  color: white;
+}
+
+.detai::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: #0b0e16d5;
+}
+
+.deta {
+  background: url("/assets/img/w.jpg") no-repeat;
+  background-position: center center;
+  background-size: cover;
+  position: relative;
+  color: white;
+}
+
+.deta::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: #0b0e16d5;
+}
+
+
+
+
 
 
 
